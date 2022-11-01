@@ -15,14 +15,18 @@
 
       <link rel="stylesheet" href="style.css" />
 
-      <title>Ohmyfood</title>
+      <title>Ohmyfood - Accueil</title>
    </head>
 
    <body>
       <!--  header  -->
 
-      <header class="logo__header">
-         <img src="ressources/logo/ohmyfood@2x.svg" alt="Ohmyfood" id="logo" />
+      <header class="header">
+         <img
+            class="header__img"
+            src="ressources/logo/ohmyfood@2x.svg"
+            alt="Ohmyfood"
+         />
       </header>
 
       <!--  main  -->
@@ -31,15 +35,17 @@
          <!-- section localization  -->
 
          <section id="localization">
-            <i class="fa-solid fa-location-dot"></i>
-            <span>Paris, Belleville</span>
+            <i class="fa-solid fa-location-dot localization__icon"></i>
+            <p class="localization__text">Paris, Belleville</p>
          </section>
 
          <!--  section exploration  -->
 
          <section id="exploration">
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>
+            <h1 class="exploration__title">
+               Réservez le menu qui vous convient
+            </h1>
+            <p class="exploration__text">
                Découvrez des restaurants d'exception sélectionnés par nos soins.
             </p>
             <button class="btn">Explorer nos restaurants</button>
@@ -48,7 +54,7 @@
          <!--  section list-choice  -->
 
          <section id="steps">
-            <h2>Fonctionnement</h2>
+            <h2 class="steps__title">Fonctionnement</h2>
             <div class="card-step">
                <div class="circle-number">
                   <span class="number">1</span>
