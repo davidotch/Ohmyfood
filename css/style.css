@@ -1,18 +1,1 @@
-/* Error: Undefined mixin.
- *   ,
- * 7 |     @include gradient-color;
- *   |     ^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\composants\_btn.scss 7:5  @import
- *   sass\main.scss 4:9             root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a   \2577 \a 7 \2502      @include gradient-color;\d\a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\composants\\_btn.scss 7:5  @import\a   sass\\main.scss 4:9             root stylesheet";
-}
+*{margin:0;padding:0;box-sizing:border-box}a{text-decoration:none;color:#000}ul{list-style:none}body{font-family:"roboto",arial,sans-serif}h2{font-size:24px}.btn{display:block;margin:auto;width:max-content;background-image:linear-gradient(#ff79da, #9356dc);color:#fff;border-radius:30px;border:none;box-shadow:2px 2px 10px #c4c3c0;padding:15px 25px;font-weight:bold;transform:scale(1);transition:transform 500ms;opacity:1}.btn:hover{transform:scale(1.02);opacity:.8}.header{height:70px;display:flex;justify-content:center;align-items:center;background-color:#fff;padding:20px 0px 10px 0px}.localization{height:55px;width:100%;background-color:#eaeaea;box-shadow:inset 0px 2px 5px 0px #c4c3c0;font-weight:500;font-size:20px;display:flex;justify-content:center;align-items:center}.localization__icon{margin-right:20px;color:#444}.localization__text{display:inline-block;margin-right:35px;color:#444}.exploration{text-align:center;background-color:#f6f6f6;padding:40px 30px 55px 30px}.exploration__title{margin-bottom:20px;font-weight:bolder}.exploration__text{margin-bottom:20px;color:#444}/*# sourceMappingURL=style.css.map */

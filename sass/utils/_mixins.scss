@@ -1,14 +1,16 @@
 // Ombre classiques
 @mixin shadow {
-    box-shadow: 2px 2px 10px $shadow-color;
+   box-shadow: 2px 2px 10px $shadow-color;
 }
 
 // Ombre plus sombre
-@mixin darker-shadow{
-    box-shadow: 2px 2px 20px black;
+@mixin darker-shadow {
+   box-shadow: 2px 2px 20px black;
 }
 
 // Couleur gradient pour boutons et coeurs
 @mixin gradient-color {
-    background-image: linear-gradient($secondary-color, $primary-color);
+   background-image: linear-gradient(#FF79DA, #9356DC);
 }
+
+

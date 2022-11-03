@@ -5,8 +5,11 @@
 
 @import "./layout/_header";
 
-@import "./utils/_variables";
 @import "./utils/_mixins";
+@import "./utils/_variables";
+
+
+
 
 .header {
     height: 70px;
