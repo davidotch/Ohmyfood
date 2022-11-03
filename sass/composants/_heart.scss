@@ -1,0 +1,11 @@
+//heart:hover
+.fa-heart {
+    font-size: 25px;
+    &:hover {
+        background: linear-gradient(#FF79DA, #9356DC);
+        transition: color 1s ease-out;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+    }
+}
