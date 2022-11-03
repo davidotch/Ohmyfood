@@ -55,3 +55,47 @@
         color: #444444;
     }
 }
+
+.steps {
+    padding: 55px 20px 45px 20px;
+    &__title {
+        margin-bottom: 30px;
+    }
+    &__card {
+        height: 75px;
+        display: flex;
+        align-items: center;
+        background-color: #f6f6f6;
+        box-shadow: 2px 2px 10px $shadow-color;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        padding: 0px 55px 0px 20px;
+        border-radius: 25px;
+        &__icon {
+            font-size: 20px;
+            margin-right: 30px;
+            color: $shadow-color;
+        }
+        &__number {
+            height: 25px;
+                width: 25px;
+                border-radius: 50%;
+                background-color: $primary-color;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: -35px;
+                color: white;
+        }
+        &__text {
+            font-weight: 500;
+        }
+        &:hover {
+            background-color: lighten($primary-color, $amount: 35%);
+        }
+        &:hover :nth-child(2) {
+            color: $primary-color;
+        }
+    }
+}
