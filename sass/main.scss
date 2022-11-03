@@ -1,4 +1,54 @@
 @import "./base/_normalize";
 @import "./base/_typography";
 
+@import "./composants/_btn";
+
 @import "./layout/_header";
+
+@import "./utils/_variables";
+@import "./utils/_mixins";
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0px 10px 0px;
+}
+
+.localization {
+    height: 55px;
+    width: 100%;
+    background-color: #eaeaea;
+    box-shadow: inset 0px 2px 5px 0px $shadow-color;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__icon {
+        margin-right: 20px;
+        color: #444444;
+    }
+    &__text {
+        display: inline-block;
+        margin-right: 35px;
+        color: #444444;
+    }
+
+}
+
+.exploration {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px 30px 55px 30px;
+    &__title {
+        margin-bottom: 20px;
+        font-weight: bolder;
+    }
+    &__text {
+        margin-bottom: 20px;
+        color: #444444;
+    }
+}
