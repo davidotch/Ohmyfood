@@ -33,12 +33,12 @@
    position: relative;
    border-radius: 30px 30px 0 0;
    background-color: #f6f6f6;
-   padding: 35px 15px 80px 15px;
+   padding: 35px 15px 10px 15px;
    &__container {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 45px;
+      margin-bottom: 10px;
    }
    &__title {
       font-family: "shrikhand", arial, sans-serif;
@@ -46,14 +46,20 @@
 }
 
 .menu {
-   padding-bottom: 40px;
+   padding-bottom: 10px;
    &__name {
-      margin-bottom: 25px;
+      margin-bottom: 15px;
+      margin-top: 40px;
+      font-size: 20px;
+      &__title {
+        font-size: 16px;
+        font-weight: 300;
+      }
       ::after {
          content: "";
          display: block;
          margin-top: 5px;
-         width: 45px;
+         width: 40px;
          height: 3px;
          background-color: $tertiary-color;
       }
@@ -87,7 +93,7 @@
       }
       &__check {
          height: 70px;
-         width: 60px;
+         width: 90px;
          opacity: 0;
          background-color: $tertiary-color;
          margin-left: 25px;
