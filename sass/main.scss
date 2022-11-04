@@ -171,5 +171,20 @@
       margin: 0;
       width: 100%;
    }
+
+   .menu {
+      width: 32%;
+   }
+
+   .pa_main {
+      width: 100%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 25px;
+      &__container {
+         margin: 0 10px;
+      }
+   }
 }
 
