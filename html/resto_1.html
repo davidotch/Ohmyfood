@@ -20,61 +20,92 @@
          referrerpolicy="no-referrer"
       />
 
-      <link rel="stylesheet" href="css/prefixed/style.css">
+      <link rel="stylesheet" href="../css/style.css" />
 
-      <title>Â la française</title>
+      <title>La palette du goût</title>
    </head>
 
    <body>
       <!--  header  -->
 
-      <header class="pa-header">
+      <header class="pa_header">
          <div>
             <a href="../index.html"
                ><i class="fa-solid fa-arrow-left pa_header__back"></i
             ></a>
          </div>
          <div class="pa_header__logo">
-            <img
-               src="../ressources/logo/ohmyfood@2x.svg"
-               alt="Ohmyfood"
-            />
+            <img src="../ressources/logo/ohmyfood@2x.svg" alt="" />
          </div>
       </header>
 
       <div>
          <img
             class="pa_img"
-            src="../ressources/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+            src="../ressources/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
             alt="Â la française"
          />
       </div>
 
       <!--  main  -->
 
-      <main>
-         <div>
-            <h1>Â la française</h1>
-         </div>
-         <div>
-            <i class="fa-regular fa-heart"></i>
+      <main class="pa_main">
+         <div class="pa_main__container">
+            <div class="pa_main__title">
+               <h2>La palette du goût</h2>
+            </div>
+            <div>
+               <i class="fa-regular fa-heart"></i>
+            </div>
          </div>
 
          <!--  section menu entrées  -->
 
          <div class="container">
             <section class="menu">
-               <h3 class="menu__title">Entrées</h3>
+               <div class="menu__name">
+                  <h3>Entrées</h3>
+               </div>
+
                <div class="menu__card">
                   <div class="menu__card__text">
-                     <h4>Tartare de poulpe acildulé</h4>
-                     <p>Aux zestes d'oranges</p>
+                     <h4 class="menu__card__text--over">
+                        Tartare de poulpe acildulé
+                     </h4>
+                     <p class="menu__card__text--over">Aux zestes d'oranges</p>
                   </div>
                   <div class="menu__card__price">25&euro;</div>
                   <div class="menu__card__check">
-                     <i class="fa-regular fa-circle-check"></i>
+                     <i class="fa-solid fa-circle-check check_icon"></i>
                   </div>
                </div>
+
+               <div class="menu__card">
+                  <div class="menu__card__text">
+                     <h4 class="menu__card__text--over">
+                        Velouté de légumes d'antan
+                     </h4>
+                     <p class="menu__card__text--over">Carottes, panais, topinambour</p>
+                  </div>
+                  <div class="menu__card__price">25&euro;</div>
+                  <div class="menu__card__check">
+                     <i class="fa-solid fa-circle-check check_icon"></i>
+                  </div>
+               </div>
+
+               <div class="menu__card">
+                  <div class="menu__card__text">
+                     <h4 class="menu__card__text--over">
+                        Soupe à l'oignon
+                     </h4>
+                     <p class="menu__card__text--over">Revisitée</p>
+                  </div>
+                  <div class="menu__card__price">25&euro;</div>
+                  <div class="menu__card__check">
+                     <i class="fa-solid fa-circle-check check_icon"></i>
+                  </div>
+               </div>
+
             </section>
          </div>
       </main>

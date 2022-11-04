@@ -1,4 +1,3 @@
-
 @import "../utils/_mixins";
 @import "../utils/_variables";
 
@@ -7,9 +6,105 @@
 
 @import "../composants/_btn";
 @import "../composants/_heart";
+@import "../composants/_check_icon";
 
 //  header
-.pa-header {
-    display: flex;
-    align-items: center;
+.pa_header {
+   display: flex;
+   align-items: center;
+   padding: 20px 25px 10px 25px;
+   &__logo {
+      margin: auto;
+   }
+   &__back {
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+}
+
+.pa_img {
+   max-height: 250px;
+   width: 100%;
+   object-fit: cover;
+}
+
+.pa_main {
+   margin-top: -30px;
+   position: relative;
+   border-radius: 30px 30px 0 0;
+   background-color: #f6f6f6;
+   padding: 35px 15px 80px 15px;
+   &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 45px;
+   }
+   &__title {
+      font-family: "shrikhand", arial, sans-serif;
+   }
+}
+
+.menu {
+   padding-bottom: 40px;
+   &__name {
+      margin-bottom: 25px;
+      ::after {
+         content: "";
+         display: block;
+         margin-top: 5px;
+         width: 45px;
+         height: 3px;
+         background-color: $tertiary-color;
+      }
+   }
+   &__card {
+      height: 70px;
+      width: 100%;
+      padding-left: 5px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      border-radius: 15px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      @include shadow;
+      &__text {
+         width: 90%;
+         white-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         &--over {
+            padding: 5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+      }
+      &__price {
+         margin-left: 10px;
+         margin-top: 26px;
+      }
+      &__check {
+         height: 70px;
+         width: 60px;
+         opacity: 0;
+         background-color: $tertiary-color;
+         margin-left: 25px;
+         margin-right: -70px;
+         border-radius: 0 10px 10px 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         transition: all 0.7s ease-in-out;
+      }
+      &:hover :nth-child(3) {
+         opacity: 1;
+         margin-right: 0px;
+      }
+      &:hover .check_icon {
+         opacity: 1;
+         transform: rotate(-360deg);
+      }
+   }
 }
