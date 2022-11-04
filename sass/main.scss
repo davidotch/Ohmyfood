@@ -1,14 +1,8 @@
-@import "./base/_normalize";
-@import "./base/_typography";
 
-@import "./utils/_mixins";
-@import "./utils/_variables";
-
-@import "./composants/_badge-new";
-@import "./composants/_btn";
-@import "./composants/_heart";
-
-@import "./layout/_header";
+@import "./utils/_mixins", "./utils/_variables";
+@import "./base/_normalize", "./base/_typography";
+@import "./composants/_badge-new", "./composants/_btn", "./composants/_heart";
+@import "./pages/_page-resto";
 
 
 

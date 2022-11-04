@@ -1,0 +1,15 @@
+
+@import "../utils/_mixins";
+@import "../utils/_variables";
+
+@import "../base/_normalize";
+@import "../base/_typography";
+
+@import "../composants/_btn";
+@import "../composants/_heart";
+
+//  header
+.pa-header {
+    display: flex;
+    align-items: center;
+}
