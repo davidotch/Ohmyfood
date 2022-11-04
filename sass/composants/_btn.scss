@@ -3,11 +3,11 @@
    display: block;
    margin: auto;
    width: max-content;
-   background-image: linear-gradient(#ff79da, #9356dc);
+   @include gradient-color;
    color: #fff;
    border-radius: 30px;
    border: none;
-   box-shadow: 2px 2px 10px #c4c3c0;
+   @include shadow;
    padding: 15px 25px;
    font-weight: bold;
    transform: scale(1);

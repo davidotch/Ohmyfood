@@ -10,7 +10,9 @@
 
 // Couleur gradient pour boutons et coeurs
 @mixin gradient-color {
-   background-image: linear-gradient(#FF79DA, #9356DC);
+   background-image: linear-gradient($secondary-color, $primary-color);
 }
+
+
 
 
