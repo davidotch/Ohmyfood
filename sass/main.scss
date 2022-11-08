@@ -1,7 +1,7 @@
 
 @import "./utils/_mixins", "./utils/_variables";
 @import "./base/_normalize", "./base/_typography";
-@import "./composants/_badge-new", "./composants/_btn", "./composants/_heart", "./composants/check_icon";
+@import "./composants/_badge-new", "./composants/_btn", "./composants/_heart", "./composants/check_icon", "./composants/_footer";
 @import "./pages/_page-resto";
 
 
@@ -122,27 +122,6 @@
          margin-top: 5px;
       }
    }
-}
-
-.footer {
-    padding: 25px;
-    background-color: #353535;
-    &__title {
-        font-family: 'shrikhand', arial, sans-serif;
-        font-size: 24px;
-        color: #f6f6f6;
-        margin-bottom: 15px;
-    }
-    &__list {
-        margin-bottom: 10px;
-    }
-    &__text {
-        color: #f6f6f6;
-    }
-    &__icon {
-        width: 10px;
-        margin-right: 10px;
-    }
 }
 
 @media screen and (min-width: 768px) {
