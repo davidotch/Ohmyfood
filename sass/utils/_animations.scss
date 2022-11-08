@@ -1,4 +1,4 @@
-//animation loader circle
+//----animation loader circle----
 @keyframes rotation {
    0% {
       transform: rotate(0deg);
@@ -8,34 +8,35 @@
    }
 }
 
-// animation fin loader
+//----animation disparition loader----
 @keyframes loader {
-    0% {
-        background-color: rgba(246, 246, 246, 0.9);
-    }
-    25% {
-        background-color: rgba(246, 246, 246, 0.9);
-    }
-    50% {
-        background-color: rgba(246, 246, 246, 0.9);
-    }
-    75% {
-        background-color: rgba(246, 246, 246, 0.5);
-    }
-    100% {
-        background-color: rgba(246, 246, 246, 0.5);
-        visibility: hidden;
-    }
+   0% {
+      background-color: rgba(246, 246, 246, 0.8);
+   }
+   25% {
+      background-color: rgba(246, 246, 246, 0.8);
+   }
+   50% {
+      background-color: rgba(246, 246, 246, 0.8);
+   }
+   75% {
+      background-color: rgba(246, 246, 246, 0.8);
+   }
+   100% {
+      background-color: rgba(246, 246, 246, 0.8);
+      visibility: hidden;
+   }
 }
 
+//----animation coeur----
 @keyframes fill {
-    0% {
-        opacity: 0.2;
-    }
-    50% {
-        opacity: 0.5;
-    }
-    100% {
-        opacity: 1;
-    }
+   0% {
+      opacity: 0.1;
+   }
+   50% {
+      opacity: 0.5;
+   }
+   100% {
+      opacity: 1;
+   }
 }
