@@ -1,3 +1,27 @@
+.loader {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(246, 246, 246);
+   position: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+   opacity: 0.9;
+   animation: loader 1s;
+   animation-fill-mode: both;
+   &__circle {
+      width: 48px;
+      height: 48px;
+      border: 6px solid $primary-color;
+      border-bottom-color: $secondary-color;
+      border-radius: 50%;
+      display: inline-block;
+      box-sizing: border-box;
+      animation: rotation 0.8s linear infinite;
+   }
+}
+
 .header {
    height: 70px;
    display: flex;
@@ -128,7 +152,6 @@
    .footer {
       text-align: center;
    }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,7 +164,8 @@
          width: 49%;
       }
    }
-   h2, .footer__title {
+   h2,
+   .footer__title {
       margin: 0;
       width: 100%;
    }
@@ -161,4 +185,3 @@
       }
    }
 }
-

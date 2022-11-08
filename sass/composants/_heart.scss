@@ -3,8 +3,9 @@
     font-size: 25px;
     cursor: pointer;
     &:hover {
+        animation: fill 0.5s ease-out;
         background: linear-gradient(#FF79DA, #9356DC);
-        transition: color 1s ease-out;
+        transition: color 0.5s ease-out;
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
