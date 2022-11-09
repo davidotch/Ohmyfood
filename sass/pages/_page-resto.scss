@@ -15,12 +15,14 @@
    }
 }
 
+//----img sous header----
 .pa_img {
    max-height: 250px;
    width: 100%;
    object-fit: cover;
 }
 
+//----main----
 .pa_main {
    margin-top: -30px;
    position: relative;
@@ -39,6 +41,7 @@
    }
 }
 
+//----menu----
 .menu {
    padding-bottom: 20px;
    &__name {
