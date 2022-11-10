@@ -79,7 +79,7 @@
       animation-name: apparition;
       animation-duration: 1s;
       animation-timing-function: 1s cubic-bezier(.57,-0.03,.36,1.02);
-      transform: scale(0);
+      transform: scaley(0);
       animation-fill-mode: both;
       &__text {
          width: 90%;

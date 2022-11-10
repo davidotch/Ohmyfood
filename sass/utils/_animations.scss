@@ -2,10 +2,10 @@
 
 @keyframes apparition {
    0% {
-      transform: scale(0);
+      transform: scaley(0);
    }
    100% {
-      transform: scale(1);
+      transform: scaley(1);
    }
 }
 
