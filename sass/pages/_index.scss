@@ -9,12 +9,12 @@
    align-items: center;
    z-index: 1;
    opacity: 0.8;
-   animation: loader 1s;
+   animation: loader 2s;
    animation-fill-mode: both;
    &__circle {
-      width: 48px;
-      height: 48px;
-      border: 6px solid $primary-color;
+      width: 85px;
+      height: 85px;
+      border: 8px solid $primary-color;
       border-bottom-color: $secondary-color;
       border-radius: 50%;
       display: inline-block;
