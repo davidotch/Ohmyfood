@@ -127,7 +127,8 @@
       margin-bottom: 20px;
       border-radius: 10px;
       @include shadow;
-      transition: 0.5s ease-in-out;
+      transition: 0.3s ease-in-out;
+      transform: scale(1);
       &__img {
          display: block;
          max-height: 175px;
@@ -145,6 +146,7 @@
       }
       &:hover {
          @include darker-shadow;
+         transform: scale(1.010);
       }
    }
 }
