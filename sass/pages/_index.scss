@@ -10,15 +10,40 @@
    animation: loader 3s;
    animation-fill-mode: both;
    &__circle {
-      width: 85px;
-      height: 85px;
-      border: 8px solid $primary-color;
-      border-bottom-color: $secondary-color;
-      border-radius: 50%;
-      display: inline-block;
-      box-sizing: border-box;
-      animation: rotation 0.8s linear infinite;
+      position: absolute;
+         &--1 {
+         width: 85px;
+         height: 85px;
+         border: 6px solid $primary-color;
+         border-bottom-color: $tertiary-color;
+         border-radius: 50%;
+         display: inline-block;
+         box-sizing: border-box;
+         animation: rotation 0.8s linear infinite;
+         }
+         &--2 {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            border: 8px solid $secondary-color;
+            border-bottom-color: $primary-color;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 0.8s linear infinite reverse;
+         }
+         &--3 {
+            width: 155px;
+            height: 155px;
+            border: 10px solid $tertiary-color;
+            border-bottom-color: $primary-color;
+            border-radius: 50%;
+            display: inline-block;
+            box-sizing: border-box;
+            animation: rotation 0.8s linear infinite;
+         }
    }
+   
 }
 
 //----header----
