@@ -37,19 +37,22 @@
 @keyframes loader {
    0% {
       background-color: rgba(246, 246, 246, 0.8);
+      opacity: 1;
    }
    25% {
       background-color: rgba(246, 246, 246, 0.8);
    }
    50% {
       background-color: rgba(246, 246, 246, 0.8);
+      opacity: 0.95;
    }
    75% {
       background-color: rgba(246, 246, 246, 0.8);
+      opacity: 0.9;
    }
    100% {
       background-color: rgba(246, 246, 246, 0.8);
-      visibility: hidden;
+      opacity: 0;
    }
 }
 

@@ -2,14 +2,12 @@
 .loader {
    width: 100%;
    height: 100%;
-   background-color: rgba(246, 246, 246);
    position: fixed;
    display: flex;
    justify-content: center;
    align-items: center;
    z-index: 1;
-   opacity: 0.8;
-   animation: loader 2s;
+   animation: loader 3s;
    animation-fill-mode: both;
    &__circle {
       width: 85px;
