@@ -78,7 +78,7 @@
       cursor: pointer;
       animation-name: apparition;
       animation-duration: 1s;
-      animation-timing-function: 1s cubic-bezier(0.57, -0.03, 0.36, 1.02);
+      animation-timing-function: cubic-bezier(0.57, -0.03, 0.36, 1.02);
       transform: scaley(0);
       animation-fill-mode: both;
       &__text {
